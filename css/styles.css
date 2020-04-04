@@ -1,0 +1,54 @@
+*{
+
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin:0;
+	padding: 0;
+}
+
+#imgDiv{
+
+	width: 1000vw;
+
+}
+
+body img {
+  width: 250px;
+  height: 200px;
+  object-fit: fill;
+}
+
+#arrowDiv{
+
+	width: 1000vw;
+	position: relative;
+	animation: upDown 3s infinite;
+
+
+}
+h1{
+
+	position: relative;
+	text-align: center;
+	font-size: 15vw;
+	animation: upDownA 4s infinite;
+
+
+}
+@keyframes upDown{
+
+	0%{top:0;}
+	50%{top: 120px;}
+	100%{top:0px;}
+}
+@keyframes upDownA{
+
+	0%{top:100px;}
+	50%{top: 220px;}
+	100%{top:100px;}
+}
+#first{
+
+	height: 50vh;
+
+}
